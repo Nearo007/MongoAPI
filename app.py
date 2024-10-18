@@ -47,7 +47,7 @@ def upload_excel():
         return jsonify({"message": "Excel file was uploaded successfully"}), 201
     
     except Exception as e:
-        return jsonify({"error": "An error occurred while uploading the excel file"}), 500
+        return jsonify({"error": "An error occurred while uploading the excel file: " + str(e)}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
