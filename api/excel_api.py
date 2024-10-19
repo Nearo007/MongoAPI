@@ -21,7 +21,7 @@ else:
     collection = db['users']
 
 try:
-    db = client.test
+    dbtest = client.test
     print("Connected successfully!")
 
 except Exception as e:
