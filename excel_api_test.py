@@ -1,6 +1,6 @@
 import requests
 
-excelFilePath = "data//excel_file.xlsx"
+excelFilePath = "data//users.xlsx"
 url = "http://127.0.0.1:5000/upload-excel"
 
 try:
